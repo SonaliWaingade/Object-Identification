@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Result</title>
+</head>
+<body>
+	<h1>Is this what you expected</h1>
+	<h1>Predictions</h1>
+
+{% for r,p in res %}
+	{{r}} {{p}}%<br/>
+{% endfor %}
+
+</body>
+</html>
